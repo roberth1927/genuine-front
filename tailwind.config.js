@@ -7,7 +7,14 @@ export default {
     './components/**/*.{html,js}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#EFEFEF'
+      },
+      fontFamily: {
+        outfit: ['Outfit', 'serif'],
+      },
+    },
   },
   plugins: [],
 }
