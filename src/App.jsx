@@ -1,12 +1,14 @@
 import { useRef } from "react";
 import Home from "./sections/Home";
 import About from "./sections/About";
+import WeAmericans from "./sections/WeAmericans";
 import Nav from "../src/components/home/Nav";
 import Pagination from "../src/components/home/Pagination";
 
 function App() {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
+  const weamericansRef = useRef(null);
 
   const handleScrollTo = (ref) => {
     if (ref && ref.current) {
@@ -19,9 +21,10 @@ function App() {
       <div className="flex-1 overflow-y-scroll">
         <Home sectionRef={homeRef} />
         <About sectionRef={aboutRef} />
+        <WeAmericans sectionRef={weamericansRef} />
       </div>
       <div className="fixed hidden md:block top-0 right-0">
-        <Nav handleScrollTo={handleScrollTo} refs={{ home: homeRef, about: aboutRef }} />
+        <Nav handleScrollTo={handleScrollTo} refs={{ home: homeRef, about: aboutRef, weamericans: weamericansRef }} />
       </div>
       <div className="fixed hidden md:block bottom-2 right-0">
         <Pagination />

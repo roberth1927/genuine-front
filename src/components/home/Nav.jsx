@@ -33,7 +33,7 @@ function Nav({ handleScrollTo, refs }) {
         </div>
         <div className="w-[310px] h-[35px] gap-0">
           <button
-            onClick={() => handleScrollTo(refs.about)}
+            onClick={() => handleScrollTo(refs.weamericans)}
             className="font-outfit text-base font-semibold leading-[14.96px] text-left text-[#133072]"
           >
             Somos Estadounidenses
@@ -57,6 +57,7 @@ Nav.propTypes = {
   refs: PropTypes.shape({
     home: PropTypes.object,
     about: PropTypes.object,
+    weamericans: PropTypes.object,
   }).isRequired,
 };
 

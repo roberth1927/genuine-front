@@ -19,11 +19,13 @@ function Aboutus() {
         </p>
       </div>
 
-      <img
-        src={imgyoutube}
-        alt="youtube"
-        className="w-[312px] xl:h-[170px] mb-4 hidden "
-      />
+      <div className="block lg:hidden">
+        <img
+          src={imgyoutube}
+          alt="youtube"
+          className="w-[312px] xl:h-[170px] mb-4 "
+        />
+      </div>
 
       <div className="w-[350px] xl:w-[1311px] mt-6 flex flex-col items-center xl:flex-row xl:justify-between">
         <CardAbout
@@ -38,13 +40,13 @@ function Aboutus() {
         />
       </div>
 
-      <img
-        src={img1}
-        alt="Description"
-        className="w-[330px] h-[134px] pb-2 hidden"
-      />
-
-     
+      <div className="block lg:hidden">
+        <img
+          src={img1}
+          alt="youtube"
+          className="w-[312px] xl:h-[170px] mb-4 "
+        />
+      </div>
     </div>
   );
 }
