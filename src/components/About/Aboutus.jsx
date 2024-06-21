@@ -6,7 +6,7 @@ import CardAbout from "./CardAabout";
 
 function Aboutus() {
   return (
-    <div className="relative w-[350px] h-[1130px] xl:w-[1480px] xl:h-[1043px] top-15 xl:left-18 xl:top-18 bg-[linear-gradient(180deg,#D5E6F7_0%,#FFFFFF_37.5%)] rounded-xl flex flex-col items-center ">
+    <div className="relative w-[350px] h-[1130px] xl:w-[1480px] xl:h-[1043px] top-15 xl:left-18 xl:top-18 bg-[linear-gradient(180deg,#D5E6F7_0%,#FFFFFF_37.5%)] rounded-xl flex flex-col items-center xl:mx-0 mx-auto">
       <img
         src={img1}
         alt="Description"

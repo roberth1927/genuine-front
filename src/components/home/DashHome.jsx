@@ -4,7 +4,7 @@ import EmailDash from "./EmailDash"
 
 function DashHome() {
   return (
-    <div className="relative w-[350px] h-[489px] xl:w-[1480px] xl:h-[1043px] top-15 xl:left-18 xl:top-18">
+    <div className="relative w-[350px] h-[489px] xl:w-[1480px] xl:h-[1043px] top-15 xl:left-18 xl:top-18 xl:mx-0 mx-auto">
       <img
         src={img1}
         alt="Description"
