@@ -1,8 +1,32 @@
-# React + Vite
+# Aplicacion creada con React y Tailwind
+Es una plataforma educativa que ofrece aprendizaje remoto en emprendimiento, tecnología e innovación.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Despliegue
+La API está desplegada en Railway en la siguiente URL:
+ [https://genuine-front-production.up.railway.app/]
+ 
+# Requisitos Previos
+ Asegúrate de tener instalado lo siguiente antes de comenzar:
+1. Node.js (versión 14 o superior)
+2. npm (versión 6 o superior)
+### Instalación y Despliegue Local
+1. Clona el repositorio desde: [https://github.com/roberth1927/genuine-front]
 
-Currently, two official plugins are available:
+2. Instala las dependencias:
+     ```bash
+     npm install  
+   ```
+3. Navega al directorio del proyecto:
+     ```bash
+     cd genuine-front
+   ```
+3. Inicia el servidor local:
+    ```bash
+    npm run dev
+    ```
+## Versiones
+React: 18.2.0
+Tailwindcss: 3.4.4
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contacto
+Si tienes alguna pregunta, no dudes en contactarnos a través del correo electrónico: [robinmoralesquiroz@gmail.com]. Si deseas obtener más información sobre cómo ejecutar  la aplicacion, también estamos disponibles para ayudarte.
