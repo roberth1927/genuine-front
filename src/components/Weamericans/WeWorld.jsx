@@ -7,8 +7,8 @@ function WeWorld() {
     <div className="bg-white w-[1480px] h-[592px] rounded-xl flex mt-auto ">
       <SectionLeft />
 
-      <div className="flex flex-col mt-16 pl-36">
-        <div className="flex justify-around ">
+      <div className="flex flex-col mt-16 pl-36 ">
+        <div className="flex justify-around xl:w-[1000px]">
           <SectionRight
             border="border-[#FF4E07]"
             color="text-[#FF4E07]"

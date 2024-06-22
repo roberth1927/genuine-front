@@ -4,7 +4,7 @@ import Join from "../components/Joinup/Join";
 
 const Joinup = forwardRef(({ sectionRef }, ref) => {
   return (
-    <section className="p-4 xl:p-8">
+    <section className="p-4 xl:px-8">
       <div ref={sectionRef}>
         <div className="hidden sm:block">
 

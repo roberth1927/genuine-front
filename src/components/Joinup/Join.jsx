@@ -8,7 +8,7 @@ import Logo from "../../assets/LogoGEJoin.png";
 
 function DashHome() {
   return (
-    <div className="relative w-[350px] h-[489px] flex justify-end xl:w-[1480px] xl:h-[1043px] top-15 xl:left-18 xl:top-18 xl:mx-0 mx-auto">
+    <div className="relative w-[350px] h-[489px] flex justify-end xl:w-[1480px] xl:h-[1043px] xl:left-18 xl:top-18 xl:mx-0 mx-auto">
       <img
         src={img}
         alt="Description"
