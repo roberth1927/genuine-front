@@ -4,15 +4,20 @@ import Insta from "../../assets/Insta.png";
 import Tik from "../../assets/Tik.png";
 import Lind from "../../assets/Lind.png";
 import You from "../../assets/You.png";
+import Logo from "../../assets/LogoGEJoin.png";
 
 function DashHome() {
   return (
-    <div className="relative w-[350px] h-[489px] xl:w-[1480px] xl:h-[1043px] top-15 xl:left-18 xl:top-18 xl:mx-0 mx-auto">
+    <div className="relative w-[350px] h-[489px] flex justify-end xl:w-[1480px] xl:h-[1043px] top-15 xl:left-18 xl:top-18 xl:mx-0 mx-auto">
       <img
         src={img}
         alt="Description"
         className="absolute w-full h-full xl:rounded-tl-20 xl:transform"
       />
+
+      <div className="absolute mt-20 mr-10 rounded-full w-[308px] h-[106px]  bg-white flex  justify-center items-center">
+        <img src={Logo} alt="" />
+      </div>
 
       <div className="absolute flex flex-col justify-center items-center w-full h-full xl:mt-56">
         <div className="w-[310px] h-[256px] xl:w-[1204px] xl:h-[380px] bg-white rounded-[20px] mb-12 mt-20">
