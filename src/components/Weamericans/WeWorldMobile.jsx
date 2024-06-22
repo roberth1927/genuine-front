@@ -44,8 +44,8 @@ function WeWorldMobile() {
           </p>
         </div>
 
-        <div className="bg-[#133072] ">
-          <p className="text-sm text-white font-outfit p-4 font-bold h-[80px] px-10">
+        <div className="bg-[#133072] rounded-b-lg">
+          <p className="text-sm text-white font-outfit p-4 font-bold h-[80px] px-10 rounded-b-lg">
           Colombia, Sudáfrica, Filipinas, Chile, México, Singapur.
           </p>
         </div>
